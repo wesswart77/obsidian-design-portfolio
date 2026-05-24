@@ -1,0 +1,11 @@
+{
+  "id": "design-portfolio",
+  "name": "Design Portfolio",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Manage your design portfolio and inspiration in Obsidian: case studies, project showcases, mood boards, and client work logs.",
+  "author": "wesswart77",
+  "authorUrl": "https://github.com/wesswart77",
+  "fundingUrl": "https://www.buymeacoffee.com/wesswart77",
+  "isDesktopOnly": false
+}

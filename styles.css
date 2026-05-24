@@ -1,0 +1,116 @@
+/* Design Portfolio */
+
+.dp-container { padding: 16px; }
+
+.dp-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+.dp-header h2 { margin: 0; }
+
+.dp-tabs {
+	display: flex;
+	gap: 4px;
+	margin-bottom: 16px;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.dp-tab {
+	padding: 6px 16px;
+	border: none;
+	background: transparent;
+	color: var(--text-muted);
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+	margin-bottom: -1px;
+	font-size: 0.9em;
+}
+.dp-tab.active {
+	color: var(--text-accent);
+	border-bottom-color: var(--interactive-accent);
+}
+.dp-tab:hover { color: var(--text-normal); }
+
+.dp-actions {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 16px;
+}
+
+.dp-btn {
+	padding: 5px 12px;
+	border-radius: 4px;
+	border: 1px solid var(--background-modifier-border);
+	background: var(--background-secondary);
+	color: var(--text-normal);
+	font-size: 0.85em;
+	cursor: pointer;
+}
+.dp-btn:hover { background: var(--background-modifier-hover); }
+
+.dp-btn-primary {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+	border: none;
+	border-radius: 4px;
+	padding: 5px 12px;
+	font-size: 0.9em;
+	cursor: pointer;
+}
+.dp-btn-primary:hover { background: var(--interactive-accent-hover); }
+
+.dp-year-group { margin-bottom: 20px; }
+.dp-year-heading {
+	font-size: 0.8em;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: var(--text-muted);
+	margin-bottom: 8px;
+}
+
+.dp-card {
+	padding: 12px;
+	border-radius: 6px;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	margin-bottom: 8px;
+}
+
+.dp-card-title {
+	font-weight: 600;
+	cursor: pointer;
+	color: var(--text-accent);
+	margin-bottom: 4px;
+}
+.dp-card-title:hover { text-decoration: underline; }
+
+.dp-card-meta {
+	font-size: 0.82em;
+	color: var(--text-muted);
+	margin-bottom: 4px;
+}
+
+.dp-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+	margin-top: 4px;
+}
+
+.dp-tag {
+	display: inline-block;
+	padding: 2px 7px;
+	border-radius: 4px;
+	background: var(--tag-background);
+	color: var(--tag-color);
+	font-size: 0.78em;
+}
+
+.dp-empty { color: var(--text-muted); font-style: italic; }
+.dp-count { color: var(--text-muted); font-size: 0.85em; margin-bottom: 12px; }
+
+.dp-modal .setting-item { border-top: none; }
+.dp-textarea { width: 100%; resize: vertical; }
